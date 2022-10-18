@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+img{
+   
+    max-width: 100%;
+    height: auto;
+
+}
+
+/*  Nav-Section */
+
+.navbar {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.navbar .navbar-logo img {
+width: 150px;
+padding: 15px;    
+}
+
+.navbar .nav-menu li {
+
+display: inline-block;
+padding: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*  Section1 */
+.music-for {
+font-size: 50px;
+
+}
+.music-everyone { 
+display: flex;
+justify-content: center;
+align-items: center;    
+margin: 50px 0px;
+background-size: cover;   
+background-image: url("../images/landing.jpg");
+height: 100vh;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: White;  
+}
+
+.music-everyone h2{ 
+    font-color: White;
+    font-weight: bold;  
+    }
+
+
+/*  Section2 */   
+
+.icons {
+
+width: 60px;
+height: 60px;
+
+
+}
+.section-spotify {
+margin: 50px 20px;
+   display: flex;
+   align-items: center;
+
+    }
+.section-spotify div {
+    width: 33.33%;
+    height: 200px;
+        
+            }
+    
+.titel-spotify {
+margin-bottom: 50px;
+font-weight: bolder;
+text-align: center;
+text-decoration: underline rgb(16, 102, 16);
+}
+
+h3 {
+color: #1AB16A;
+
+
+
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;   
+    
+    }
+
+/*  Section3 */ 
+.kanie-west {
+margin: 100px 10px;
+padding: 20px;
+background-color: #1AB16A;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+
+}
+
+.column1 {
+    display: flex;
+   padding: 20px;
+   order: 0;
+}
+
+
+
+.column1-1 h2 {
+color: white;    
+text-decoration: underline white;
+      }  
+
+.column1-2  {
+  display: flex;
+  justify-content: flex-end;
+    padding: 10px;
+   }
+.column1-2 img {
+ height: auto;
+ text-align: center;
+ width: 100px ;
+}
+
+.column1-2 {
+  align-items: center;
+   }
+
+.p-end {
+color: white;
+
+}
+
+.h3-end {
+margin-top: 30px;
+    color:white;
+}
+
+
+
+    
